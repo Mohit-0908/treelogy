@@ -47,7 +47,7 @@ public class TreelogyApp {
         driver.findElement(By.xpath("//android.widget.ScrollView/android.view.View/android.widget.EditText[2]"))
                 .sendKeys("123");
 
-        driver.findElement(By.xpath("//android.widget.TextView[@text='Sign In']")).click();
+        driver.findElement(By.xpath("//android.widget.TextView[@text='Sign In']"')).click();
 
         // ✅ WAIT
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(25));
@@ -73,6 +73,7 @@ public class TreelogyApp {
         // driver.quit();
         
         //Tree Assestment 
+        
         scrollToTreeAssessment(driver);
         Thread.sleep(2000);
         wait.until(ExpectedConditions.visibilityOfElementLocated(
@@ -387,5 +388,4 @@ public class TreelogyApp {
 //            System.out.println("❌ Ownership Details NOT found");
 //    }
 //    }
-    String a =10;
 }
