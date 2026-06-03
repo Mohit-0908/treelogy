@@ -47,7 +47,7 @@ public class TreelogyApp {
         driver.findElement(By.xpath("//android.widget.ScrollView/android.view.View/android.widget.EditText[2]"))
                 .sendKeys("123");
 
-        driver.findElement(By.xpath("//android.widget.TextView[@text='Sign In']"')).click();
+        driver.findElement(By.xpath("//android.widget.TextView[@text='Sign In']")).click();
 
         // ✅ WAIT
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(25));
