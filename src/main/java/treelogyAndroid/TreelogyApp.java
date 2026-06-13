@@ -62,7 +62,7 @@ public class TreelogyApp {
 //        driver.findElement(By.xpath("//android.widget.TextView[@text='dummy']")).click();
 
         // 🌿 TREE MEASUREMENTS (SCROLL + ENTER)
-        enterValueWithScroll(driver, "Girth", "26");
+        enterValueWithScroll(driver, "Girth", "24");
         
         enterValueWithScroll(driver, "Height", "15");
        
